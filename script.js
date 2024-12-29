@@ -8,5 +8,5 @@ buttonClicked.addEventListener('click', ()=>{
   
 	count++;
 
-	countElement.textContent = count;
+	countElement.innerHTML = count;
 })
